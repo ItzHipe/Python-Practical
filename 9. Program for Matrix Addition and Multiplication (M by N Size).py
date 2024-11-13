@@ -1,4 +1,5 @@
 import numpy as np
+import random
 
 M = int(input("Enter number of rows: "))
 N = int(input("Enter number of columns: "))
