@@ -1,5 +1,5 @@
-for num in range(1, 1001):
-    order = len(str(num))
-    sum = sum(int(digit) ** order for digit in str(num))
-    if sum == num:
-        print(num, "is an Armstrong number.")
+for num in range(1,1001):
+    length = len(str(num))
+    sum_of_powers = sum([int(num) ** length for num in str(num)])
+    if sum_of_powers == num:
+        print(num)
